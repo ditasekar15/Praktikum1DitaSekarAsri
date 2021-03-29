@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.nsh.praktikum1ditasekarasri">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Praktikum1DitaSekarAsri">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".rs"></activity>
+        <activity android:name=".RSAwalBross"></activity>
+        <activity android:name=".RSEkaHospital"></activity>
+        <activity android:name=".RSJTampan"></activity>
+        <activity android:name=".RSTabrani"></activity>
+        <activity android:name=".polisi"></activity>
+        <activity android:name=".PolrestaPekanbaru"></activity>
+        <activity android:name=".PolsekPekanbaruKota"></activity>
+        <activity android:name=".PolsekTampan"></activity>
+        <activity android:name=".Ska"></activity>
+        <activity android:name=".Planet"></activity>
+        <activity android:name=".KasSwalayan"></activity>
+        <activity android:name=".IonSwalayan"></activity>
+        <activity android:name=".belanja"></activity>
+        <activity android:name=".sekolah"></activity>
+        <activity android:name=".sman4pku"></activity>
+        <activity android:name=".SmaDarma"></activity>
+        <activity android:name=".Sdn79pku"></activity>
+        <activity android:name=".Sdn80pku"></activity>
+        <activity android:name=".PoldaPekanbaru"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
